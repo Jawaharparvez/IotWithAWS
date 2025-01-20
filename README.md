@@ -246,11 +246,11 @@ Ensure all these files are securely stored, as they will be used later for devic
 ---
 
 
-###Testing the Setup
+####Testing the Setup
 Upload the code to your ESP32 using the Arduino IDE.
 Open the Serial Monitor to verify the connection to Wi-Fi and AWS IoT Core.
 Use the MQTT test client in the AWS IoT Core Console to monitor the esp32/dht/temperature and esp32/dht/humidity topics for data updates.
 
-###Conclusion
+####Conclusion
 By integrating the ESP32 with AWS IoT Core, this project demonstrates a simple yet powerful way to monitor environmental conditions remotely. You can expand this setup further to include more sensors, create dashboards using AWS services like Amazon QuickSight, or even set up alerts using AWS Lambda.
 
